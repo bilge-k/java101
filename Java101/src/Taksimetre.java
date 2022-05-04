@@ -7,8 +7,8 @@ public class Taksimetre {
         System.out.println("Kaç km gittiğini giriniz: ");
         km=input.nextFloat();
         float odenecekTutar=10+(km*kmBasinaUcret);
-        boolean minOdenecekTutar= odenecekTutar<20;
-        int sonOdenecekTutar= minOdenecekTutar? 20: (int) odenecekTutar;
+   
+        int sonOdenecekTutar=odenecekTutar<20? 20: (int) odenecekTutar;
         System.out.println("Ödemeniz gereken ücret: "+sonOdenecekTutar);
 
     }
