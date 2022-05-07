@@ -48,6 +48,8 @@ public class CinZondagı {
             case 11:
                 System.out.println("Koyun");
                 break;
+            default:
+                break;
         }
 
 
